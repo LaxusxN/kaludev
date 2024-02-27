@@ -8,12 +8,12 @@ export const About: FC<AboutProps> = () => {
   return (
     <div
       className="flex flex-col items-center justify-center
-      h-[60vh] bg-blue-600 text-blue-100 gap-8"
+      h-[90vh] sm:h-[60vh] bg-blue-600 text-blue-100 gap-8"
     >
-      <p className="font-bold text-4xl">
+      <p className="font-bold text-4xl text-center">
         HI, I'm Luis Calagua. Nice to meet you
       </p>
-      <p className="text-lg font-sans w-[600px]">
+      <p className="text-lg font-sans w-[300px] sm:w-[600px] text-justify">
         Since begining on my journey as a front-end developer 2 years ago, I
         have worked for agencies, consulted for startups, and learned from
         talented individuals. Therefore, I have chosen to initiate this project

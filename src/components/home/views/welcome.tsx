@@ -9,9 +9,9 @@ export const Welcome: FC<WelcomeProps> = () => {
   return (
     <div
       className="flex flex-col gap-8 bg-blue-50
-    justify-center items-center  h-[60vh]"
+    justify-center items-center  h-[60vh] text-center"
     >
-      <p className="font-bold text-4xl">Software Web Developer</p>
+      <p className="font-bold text-4xl ">Software Web Developer</p>
       <p className="font-extralight text-xl">
         I design and code websites to improve your bussiness. I love what I do
       </p>

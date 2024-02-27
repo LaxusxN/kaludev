@@ -20,7 +20,7 @@ const projects = [
   },
   {
     name: "Beauty Nails",
-    url: "https://beauty-nails-l-n.netlify.app/",
+    url: "",
     image: beautynails,
   },
 ];
