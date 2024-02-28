@@ -53,7 +53,7 @@ export const Footer: FC<FooterProps> = () => {
       <h1 className="text-white text-2xl font-sans">
         Contáctame: (+51) 993 326 873
       </h1>
-      <div className=" flex justify-between gap-4 flex-wrap">
+      <div className=" flex justify-between gap-4 flex-wrap ">
         {media.map((index) => (
           <FontAwesomeIcon
             icon={index.name}
@@ -62,6 +62,10 @@ export const Footer: FC<FooterProps> = () => {
           />
         ))}
       </div>
+      <hr />
+      <h1 className="text-white text-center">
+        Designed by Luis Calagua - Kaludev
+      </h1>
     </div>
   );
 };
