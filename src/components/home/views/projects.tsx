@@ -1,6 +1,5 @@
 import { FC } from "react";
 import kaludemy from "../../../assets/kaludemy.png";
-import sanvalentin from "../../../assets/sanvalentin.png";
 import beautynails from "../../../assets/beautynails.png";
 import { CardProject } from "../../basic";
 
@@ -12,11 +11,6 @@ const projects = [
     name: "kaludemy",
     url: "https://laxusxn.github.io/kaludemy/",
     image: kaludemy,
-  },
-  {
-    name: "San Valentin",
-    url: "https://laxusxn.github.io/san-valentin/",
-    image: sanvalentin,
   },
   {
     name: "Beauty Nails",
